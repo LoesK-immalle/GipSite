@@ -1,9 +1,8 @@
 # GipSite
 ## Sitemap
 
-- Welkom 
-- about
-    - info over GIP
+- index
+    - Welkomsttekst
 - stage
     - fotoreportage
     - dagverslagen
