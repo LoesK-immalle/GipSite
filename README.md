@@ -7,5 +7,5 @@
 - stage
     - fotoreportage
     - dagverslagen
-    - (link naar) huisstijl
+    - (link naar) huisstijl en bedrijfseconomische analyse
 - FAQ
