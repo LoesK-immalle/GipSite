@@ -3,6 +3,7 @@
 
 - index
     - Welkomsttekst
+    - Video Engels
 - stage
     - fotoreportage
     - dagverslagen
