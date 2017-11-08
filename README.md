@@ -8,7 +8,7 @@
     - fotoreportage
     - dagverslagen
     - (link naar) huisstijl en bedrijfseconomische analyse
-- FAQ
+- IT-Tapas
 
 ## Wat heb ik gebruikt?
 - Materialize
