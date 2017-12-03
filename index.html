@@ -10,9 +10,7 @@
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Loes' GIP Site</title>
-  <link rel="icon" 
-  type="image/png" 
-  href="media/favicon.png">
+  <link rel="icon" type="image/png" href="media/favicon.png">
 </head>
 
 <body>
@@ -22,41 +20,60 @@
 
   <style>
     body {
-        display: flex;
-        min-height: 100vh;
-        flex-direction: column;
-        }
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+    }
 
     main {
-        flex: 1 0 auto;
-        }
-</style>
+      flex: 1 0 auto;
+    }
+
+    .parallax-container {
+      height: 900px;
+    }
+  </style>
   <nav>
     <div class="nav-wrapper pink darken-4">
-    <div class="row container">
-      <a href="#" class="brand-logo right">Loes</a>
-      <ul id="nav-mobile" class="left hide-on-med-and-down">
-        <li>
-          <a href="index.html">Home</a>
-        </li>
-        <li>
-          <a href="stage.html">Stage</a>
-        </li>
-        <li>
-          <a href="it-tapas.html">IT-Tapas</a>
-        </li>
-      </ul>
+      <div class="row container">
+        <a href="#" class="brand-logo right">Loes</a>
+        <ul id="nav-mobile" class="left hide-on-med-and-down">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="stage.html">Stage</a>
+          </li>
+          <li>
+            <a href="it-tapas.html">IT-Tapas</a>
+          </li>
+        </ul>
       </div>
     </div>
   </nav>
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="media/FotoLoesGIPSite.png">
+    </div>
+  </div>
+  <script>
+    $(document).ready(function () {
+      $('.parallax').parallax();
+    });
+  </script>
   <div class="container">
-    <h1>Loes Kenis</h1>
-    <p>Hallo en welkom op mijn gipwebsite. Mijn naam is Loes Kenis, ik ben 17 jaar en kom uit Sint-Lenaarts. Ik studeer IT en Netwerken, en zit in mijn laatste jaar. In mijn vrije tijd experimenteer ik graag met games maken. Als ik niet achter mijn computer zit, kan je me in de keuken terugvinden. Ik maak taarten, cupcakes, tiramisu en nog veel andere dingen. 
+    <p>Hallo en welkom op mijn gipwebsite. Mijn naam is Loes Kenis, ik ben 17 jaar en kom uit Sint-Lenaarts. Ik studeer IT en
+      Netwerken, en zit in mijn laatste jaar. In mijn vrije tijd experimenteer ik graag met games maken. Als ik niet achter
+      mijn computer zit, kan je me in de keuken terugvinden. Ik maak taarten, cupcakes, tiramisu en nog veel andere dingen.
     </p>
-    <p>Ik zou later graag iets doen wat ik graag doe. Ook wil ik dingen maken die mensen blij maken. Van een van mijn hobby’s zou ik graag mijn beroep maken, het liefst nog van alle twee. 
+    <p>Ik zou later graag iets doen wat ik graag doe. Ook wil ik dingen maken die mensen blij maken. Van een van mijn hobby’s
+      zou ik graag mijn beroep maken, het liefst nog van alle twee.
     </p>
-    <p>Op deze site vind je mijn geïntegreerde proef. Onder “stage” staat het dagboek dat ik bijhield op mijn observatiestage, een casestudy over Autotask (een service die ze in mijn stagebedrijf gebruikten), een fotoreportage en een analyse van de huisstijl. Op deze pagina staat verder nog een video waarin ik uitleg wat ITN inhoudt en waarom ik deze richting gekozen heb.
-      
+    <p>Op deze site vind je mijn geïntegreerde proef. Onder “stage” staat het dagboek dat ik bijhield op mijn observatiestage,
+      een casestudy over Autotask (een service die ze in mijn stagebedrijf gebruikten), een fotoreportage en een analyse
+      van de huisstijl. Op deze pagina staat verder nog een video waarin ik uitleg wat ITN inhoudt en waarom ik deze richting
+      gekozen heb.
+
     </p>
     <h1>Why did I choose this line of study?</h1>
     <div class="video-container">
